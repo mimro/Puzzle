@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\GameBase">
+      <UniqueIdentifier>{6868a675-93ae-406a-a376-a063aace278e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameBase">
+      <UniqueIdentifier>{3fc39267-ce85-43b6-a520-c592b90c5f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PuzzleGameView">
+      <UniqueIdentifier>{069afadf-4dc4-43f8-94c6-2cd3a708611c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PuzzleGameView">
+      <UniqueIdentifier>{467068a5-06d3-4246-9848-9056af891a95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Solver">
+      <UniqueIdentifier>{81764ea2-b925-442d-96db-021d6f3061d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Solver">
+      <UniqueIdentifier>{ec7939d7-3828-432e-8688-b06359fad623}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameManager">
+      <UniqueIdentifier>{dd401a47-a0f6-444c-8e50-62258bdd6798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameManager">
+      <UniqueIdentifier>{382cc07a-1794-46f3-9275-e46d0ccb7eeb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Source Files\GameBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Source Files\GameBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Solver.cpp">
+      <Filter>Source Files\Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="DFSSolver.cpp">
+      <Filter>Source Files\Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="AStarSolver.cpp">
+      <Filter>Source Files\Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="SolverFactory.cpp">
+      <Filter>Source Files\Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewFactory.cpp">
+      <Filter>Source Files\PuzzleGameView</Filter>
+    </ClCompile>
+    <ClCompile Include="IView.cpp">
+      <Filter>Source Files\PuzzleGameView</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleView.cpp">
+      <Filter>Source Files\PuzzleGameView</Filter>
+    </ClCompile>
+    <ClCompile Include="SFMLView.cpp">
+      <Filter>Source Files\PuzzleGameView</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GreedyBestFirstSolver.cpp">
+      <Filter>Source Files\Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="SolverResolver.cpp">
+      <Filter>Source Files\Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="SolverBase.cpp">
+      <Filter>Source Files\Solver</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Solver\Solver.h">
+      <Filter>Header Files\Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="Solver\SolverBase.h">
+      <Filter>Header Files\Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="Solver\SolverFactory.h">
+      <Filter>Header Files\Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="Solver\SolverResolver.h">
+      <Filter>Header Files\Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="Solver\DFSSolver.h">
+      <Filter>Header Files\Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="Solver\AStarSolver.h">
+      <Filter>Header Files\Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="Solver\GreedyBestFirstSolver.h">
+      <Filter>Header Files\Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="Solver\CostNoDepthFunctor.h">
+      <Filter>Header Files\Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="Solver\Node.h">
+      <Filter>Header Files\Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="Solver\NodeCompareFunctor.h">
+      <Filter>Header Files\Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBase\Board.h">
+      <Filter>Header Files\GameBase</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBase\Tile.h">
+      <Filter>Header Files\GameBase</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager\ActionResult.h">
+      <Filter>Header Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="PuzzleGameView\ConsoleView.h">
+      <Filter>Header Files\PuzzleGameView</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBase\Coordinates.h">
+      <Filter>Header Files\GameBase</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager\GameManager.h">
+      <Filter>Header Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager\GameStates.h">
+      <Filter>Header Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="PuzzleGameView\IView.h">
+      <Filter>Header Files\PuzzleGameView</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBase\MakeMoveVector.h">
+      <Filter>Header Files\GameBase</Filter>
+    </ClInclude>
+    <ClInclude Include="PuzzleGameView\SFMLView.h">
+      <Filter>Header Files\PuzzleGameView</Filter>
+    </ClInclude>
+    <ClInclude Include="PuzzleGameView\ViewFactory.h">
+      <Filter>Header Files\PuzzleGameView</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,6 @@
+﻿  SFMLView.cpp
+c:\zcpp- projekt\puzzle\puzzle\sfmlview.cpp(27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\zcpp- projekt\puzzle\puzzle\sfmlview.cpp(60): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\zcpp- projekt\puzzle\puzzle\sfmlview.cpp(63): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  Puzzle.vcxproj -> C:\ZCPP- projekt\Puzzle\Debug\Puzzle.exe
+  Puzzle.vcxproj -> C:\ZCPP- projekt\Puzzle\Debug\Puzzle.pdb (Full PDB)

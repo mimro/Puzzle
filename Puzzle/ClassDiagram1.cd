@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="SolverBase" Collapsed="true">
+    <Position X="2.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAACAAAAAAAAAAAAEAAIAAAAAAAAAAACAAAAAAAAg=</HashCode>
+      <FileName>Solver\SolverBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Solver" Collapsed="true">
+    <Position X="2.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAQAKAAAAAAAAAACAAAAAAAg=</HashCode>
+      <FileName>Solver\Solver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreedyBestFirstSolver" Collapsed="true">
+    <Position X="4.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Solver\GreedyBestFirstSolver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DFSSolver" Collapsed="true">
+    <Position X="2.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAIAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Solver\DFSSolver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AStarSolver" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Solver\AStarSolver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewFactory" Collapsed="true">
+    <Position X="9.5" Y="2.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACAQAAAAIAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>PuzzleGameView\ViewFactory.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="view" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SFMLView" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACABEAACQBQAAAAAAAAAAACABAAAgQIAQAAAAAAAAE=</HashCode>
+      <FileName>PuzzleGameView\SFMLView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleView" Collapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAACAAiABAAAAAAAAAAAACAAAAAgAAAQAAAAAAAAA=</HashCode>
+      <FileName>PuzzleGameView\ConsoleView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IView" Collapsed="true">
+    <Position X="7.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIACABAAAAAAAAAAAACAAAAAgAACAAAAAAAAAA=</HashCode>
+      <FileName>PuzzleGameView\IView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameManager" Collapsed="true">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="~GameManager" Hidden="true" />
+      <Method Name="GetAction" Hidden="true" />
+      <Method Name="InitializeSolver" Hidden="true" />
+    </Members>
+    <AssociationLine Name="view" Type="IView" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.031" Y="1.062" />
+        <Point X="5.031" Y="1.437" />
+        <Point X="8" Y="1.437" />
+        <Point X="8" Y="2.25" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="solver" Type="Solver" ManuallyRouted="true">
+      <Path>
+        <Point X="4.25" Y="0.781" />
+        <Point X="2.25" Y="0.781" />
+        <Point X="2.25" Y="2.979" />
+        <Point X="3.25" Y="2.979" />
+        <Point X="3.25" Y="3.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAgAAAACABAAAAQAAAAAAAIAAABCAQEIQAAAABQAAI=</HashCode>
+      <FileName>GameManager\GameManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="board" />
+      <Field Name="view" />
+      <Field Name="solver" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Tile" Collapsed="true">
+    <Position X="11.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAgAAAAAAAAAAAAAAACAAAAAAACAAYQA=</HashCode>
+      <FileName>GameBase\Tile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Board" Collapsed="true">
+    <Position X="11.25" Y="2.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgAAAABAAKAAAAAAAICAAAAAAAAAAgAAIUAAACAABAg=</HashCode>
+      <FileName>GameBase\Board.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolverResolver" Collapsed="true">
+    <Position X="6" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAABEAAAAAAAAAAAAoAAAAgAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Solver\SolverResolver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolverFactory" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAACAAAAAIAAAAAAQA=</HashCode>
+      <FileName>Solver\SolverFactory.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="solver" />
+    </ShowAsAssociation>
+  </Class>
+  <Struct Name="Node" Collapsed="true">
+    <Position X="4.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAEQAAAAIABgAAAAAAA=</HashCode>
+      <FileName>Solver\Node.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="NodeCompareFunctor" Collapsed="true">
+    <Position X="4" Y="6" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Solver\NodeCompareFunctor.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CostNoDepthFunctor" Collapsed="true">
+    <Position X="1.5" Y="6" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Solver\CostNoDepthFunctor.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ActionResult" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA4AA=</HashCode>
+      <FileName>GameManager\ActionResult.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="gameState" />
+    </ShowAsAssociation>
+  </Struct>
+  <Struct Name="MoveVector" Collapsed="true">
+    <Position X="13" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAAA=</HashCode>
+      <FileName>GameBase\MakeMoveVector.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="coordinates" Collapsed="true">
+    <Position X="11.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>GameBase\Coordinates.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="gameStates" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAIGAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameManager\GameStates.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
