@@ -6,6 +6,6 @@ This implementation was part of my software engeering program for Advanced C++ c
 
 ![GitHub Logo](Puzzle/images/lenaPuzzle.PNG)
 
-Class diagram for this project diagram:
+Class diagram for this project:
 
 ![GitHub Logo](Puzzle/ClassDiagram.png)
